@@ -1,11 +1,5 @@
-微信小程序在近期比较火热，作者在闲暇之余研究后决定做一个今日头条的小demo。
+在闲暇之余研究后决定做一个今日头条的小demo。
 
----------
-+ 微信小程序官方文档:http://wxopen.notedown.cn/
-
-
-![TodayNews.gif](http://upload-images.jianshu.io/upload_images/1912827-ed2da16bb6bf6ff3.gif?imageMogr2/auto-orient/strip)
-----------
 首页的开发过程。
 
 1. 首先在app.json中配置每个页面
@@ -77,8 +71,8 @@
 }
 ```
 
-![导航条](http://upload-images.jianshu.io/upload_images/1912827-61a8f73fd18a1066.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)3. 获取内容
-+ 作者封装了以下网络接口首先初始化数据端。
+
+封装了以下网络接口首先初始化数据端。
 
 ```
 import  {
